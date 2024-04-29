@@ -6,7 +6,7 @@ const data = {
   imageAlt: "Rear view of modern home with pool",
   beds: 3,
   baths: 2,
-  title: "Modern home in city center",
+  title: "Modern home in city center in the heart of Johannesburg",
   priceInCents: 190000,
   formattedPrice: "$1,900.00",
   reviewCount: 34,
@@ -15,7 +15,7 @@ const data = {
 
 export default async function PropertyPage() {
   return (
-    <div id="app">
+    <div id="app" className="antialiased text-gray-900">
         <div className="bg-gray-200 min-h-screen p-8 flex items-center justify-center">
             <PropertyCard property={data} />
         </div>
