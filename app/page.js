@@ -10,7 +10,7 @@ const data = {
   priceInCents: 190000,
   formattedPrice: "$1,900.00",
   reviewCount: 34,
-  rating: 4,
+  rating: 3,
 };
 
 export default async function PropertyPage() {
